@@ -1,0 +1,605 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f6f6f6;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 22px 0;
+}
+/*HEADER
+===========================================*/
+.header__container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container a{
+    color: #000;
+    font-size: 16px;
+    padding: 27px 6px;
+    margin-right: 63px;
+}
+
+.header__container a:hover{
+    background: #ffea00;
+    transition: 1.5s;
+}
+
+#menu__checkbox{
+    display: none;
+}
+
+ul{
+    display: flex;
+}
+
+nav{
+    margin-top: 20px;
+}
+/*SLIDE
+===========================================*/
+.top__slide{
+    background: url("../img/slider_bg.jpg") no-repeat;
+    padding-top: 120px;
+    padding-bottom: 259px;
+}
+
+.top__container{
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.top__slide h2{
+    background: #ffea00;
+    display: inline;
+    font-size: 70px;
+    padding: 0 13px;
+}
+
+.second__h2{
+    margin: 10px 0;
+}
+
+.top__slide p{
+    display: inline;
+    font-size: 24px;
+    background: #414146;
+    color: #fff;
+    padding: 0 4px;
+}
+
+/*SPECIALIZE
+===========================================*/
+.specialize__container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.specialize__container h3{
+    font-size: 35px;
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
+
+.specialize__container p{
+    font-size: 24px;
+    margin-bottom: 65px;
+
+}
+
+.specialize__cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.bottom-card{
+    background: #414146;
+    position: relative;
+    top: -15px;
+}
+
+.yellow img{
+    background: #ffea00;
+}
+
+
+/*PORTFOLIO
+=========================================*/
+
+.portfolio{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio h4{
+    display: inline-block;
+    background: #414147;
+    color: #ffea00;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+.portfolio p{
+    margin-top: 35px;
+    color: #424146;
+    font-size: 16px;
+}
+
+.toggles button{
+    border: none;
+    color: #424146;
+    background: #f6f6f6;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 5px;
+}
+
+.toggles button:after{
+    content: "/";
+}
+
+.toggles button:last-child:after{
+    content: "";
+}
+
+.posts{
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+/*BRANDS
+==========================================*/
+
+.brand-slider{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brand-slider h4{
+    display: inline-block;
+    padding: 0 30px;
+    margin-top: 50px;
+    background: #414147;
+    color: #ffea00;
+    font-size: 18px;
+}
+
+.brand-slider p{
+    margin-top: 35px;
+    color: #424146;
+    font-size: 16px;
+}
+
+.owl-carousel{
+    margin-bottom: 120px;
+}
+
+.owl-carousel img{
+    margin-top: 30px;
+}
+
+/*FOOTER
+=============================================*/
+
+footer{
+    background: #414146;
+    padding-top: 30px ;
+}
+
+footer h4{
+    font-size: 18px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 57px;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footer-container .about-us a{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eeda00;
+}
+
+.images{
+    margin: 30px 0;
+}
+
+.tweets p{
+    margin-top: 30px;
+}
+
+.tweets span,
+.contacts span{
+    color: #ffea00;
+}
+
+.second__h4{
+    margin-top: 75px;
+}
+
+#social{
+    margin-top: 0;
+}
+
+.contacts p{
+    margin-top: 30px;
+}
+
+.contacts img{
+    margin-right: 10px;
+}
+
+
+#phone span{
+    position: relative;
+    left: 50px;
+}
+
+/*.footer__nav{*/
+/*    background: #000;*/
+/*}*/
+
+/*.footer__nav ul{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.footer__nav li{*/
+/*    margin-right: 80px;*/
+/*    margin-top: 30px;*/
+/*    margin-bottom: 30px;*/
+/*    color: #fff;*/
+/*}*/
+
+.footer__nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: #000;
+}
+
+.footer__nav a{
+    color: #fff;
+    font-size: 16px;
+    padding: 27px 6px;
+    margin-right: 63px;
+}
+
+.footer__nav a:hover{
+    color: #ffea00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .header__container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main__menu{
+        display: none;
+    }
+
+    .main__menu li{
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+
+    .main__menu a{
+        display: block;
+        padding: 8px;
+    }
+
+    .toggle-button{
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #000;
+        margin-top: 27px;
+    }
+
+    .toggle-button:after{
+        content: attr(data-open);
+        display: block;
+    }
+
+    #menu__checkbox:checked + nav[role="navigation"] .main__menu{
+        display: block;
+    }
+
+    #menu__checkbox:checked + nav[role="navigation"] .toggle-button:after{
+        content: attr(data-close);
+    }
+
+    .header__container a{
+        margin-right: -65px;
+        text-align: right;
+    }
+
+    .main__menu{
+        position: relative;
+        top: 8px;
+        right: 57px;
+    }
+
+    .top__slide {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .top__slide h2{
+        font-size: 45px;
+    }
+
+    .top__slide p{
+        font-size: 16px;
+    }
+
+    .specialize__container h3 {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .specialize__container p {
+        font-size: 16px;
+        margin-bottom: 65px;
+    }
+
+    .specialize__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bottom-card{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .portfolio p{
+        margin-bottom: 15px;
+    }
+
+    .toggles button{
+        margin: 10px 5px;
+    }
+
+    .posts{
+        width: 90%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto auto;
+    }
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 57px;
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    .second__h4{
+        margin-top: 40px;
+    }
+
+    footer h4{
+        margin-bottom: 20px;
+    }
+
+    #social{
+        margin-bottom: 15px;
+    }
+
+    .follow{
+        padding-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+    .header__container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main__menu{
+        display: none;
+    }
+
+    .main__menu li{
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+
+    .main__menu a{
+        display: block;
+        padding: 8px;
+    }
+
+    .toggle-button{
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #000;
+        margin-top: 27px;
+    }
+
+    .toggle-button:after{
+        content: attr(data-open);
+        display: block;
+    }
+    
+    #menu__checkbox:checked + nav[role="navigation"] .main__menu{
+        display: block;
+    }
+
+    #menu__checkbox:checked + nav[role="navigation"] .toggle-button:after{
+        content: attr(data-close);
+    }
+
+    .header__container a{
+        margin-right: -65px;
+        text-align: right;
+    }
+
+    .main__menu{
+        position: relative;
+        top: 8px;
+        right: 57px;
+    }
+
+    .top__slide {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .top__slide h2{
+        font-size: 32px;
+    }
+
+    .top__slide p{
+        font-size: 16px;
+    }
+
+    .specialize__container h3 {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .specialize__container p {
+        font-size: 16px;
+        margin-bottom: 65px;
+    }
+
+    .specialize__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bottom-card{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .portfolio p{
+        margin-bottom: 15px;
+    }
+
+    .toggles button{
+        margin: 10px 5px;
+    }
+
+    .posts{
+        width: 90%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto;
+    }
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 57px;
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    .second__h4{
+        margin-top: 40px;
+    }
+
+    footer h4{
+        margin-bottom: 20px;
+    }
+
+    #social{
+        margin-bottom: 15px;
+    }
+
+    .follow{
+        padding-bottom: 30px;
+    }
+
+    .footer__nav{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
