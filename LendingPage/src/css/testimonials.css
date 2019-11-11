@@ -1,0 +1,32 @@
+.main__testimonials{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 170px 0;
+    color: #fff;
+}
+
+.main__testimonials h1{
+    font-size: 44px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.main__testimonials h1 span{
+    font-weight: 700;
+}
+
+.testimonial{
+    margin-top: 150px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.client__name{
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.client__name span{
+    font-weight: 600;
+}

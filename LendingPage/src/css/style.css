@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 76%;
+    margin: 0 auto;
+}
+
+h1:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #fcac45;
+}

@@ -1,0 +1,43 @@
+.services__cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 20px;
+}
+
+.main__services h1{
+    text-align: center;
+    padding: 100px 0 30px 0;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.main__services p{
+    text-align: center;
+    color: #6c6c6c;
+    margin-bottom: 100px;
+}
+
+.services__card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.services__card p{
+    font-size: 14px;
+    color: #222;
+}
+
+@media screen and (max-width: 1010px) {
+    .services__cards{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .services__cards{
+        grid-template-columns: auto ;
+    }
+}

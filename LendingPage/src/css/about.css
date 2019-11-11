@@ -1,0 +1,81 @@
+
+
+main .main__about{
+    display: flex;
+    padding: 100px 0;
+}
+
+.about__right{
+    margin-left: 175px;
+}
+
+.about__right h1{
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.about__right h1:after{
+    display: none;
+}
+
+.about__right h1 span{
+    font-weight: 700;
+
+}
+
+.about__right p{
+    margin: 30px 0 50px 0;
+    color: #c3c3c3;
+    font-size: 18px;
+}
+
+.about__right li{
+    background: url("../img/about/mark.png") 0 no-repeat;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    color: #5a5a5a;
+}
+
+.mw-100{
+    min-width: 100%;
+}
+
+@media screen and (max-width: 1010px) {
+
+    main .main__welcome {
+        padding: 50px 0 50px 0;
+    }
+
+    main .main__welcome p,
+    main .main__welcome p span {
+        font-size: 14px;
+    }
+
+    main .main__welcome h1 {
+        font-size: 25px;
+    }
+
+    .mw-100 {
+        max-width: 100%;
+    }
+
+    .main__about {
+        flex-direction: column;
+    }
+
+    .about__right {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .about__right li {
+        text-align: left;
+    }
+
+    .about__right h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
